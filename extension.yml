@@ -1,0 +1,26 @@
+schema_version: "1.0"
+
+extension:
+  id: "prep-specify"
+  name: "Prep Specify"
+  version: "1.0.0"
+  description: "Clarify rough feature ideas into paste-ready /speckit.specify prompts"
+  author: "Nick"
+  repository: "https://github.com/<your-org>/spec-kit-prep-specify"
+  homepage: "https://github.com/<your-org>/spec-kit-prep-specify"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: "speckit.prep-specify.prepare"
+      file: "commands/speckit.prep-specify.prepare.md"
+      description: "Review a rough idea and generate paste-ready /speckit.specify input"
+
+tags:
+  - "docs"
+  - "process"
+  - "specification"
+  - "prompt-prep"
