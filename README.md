@@ -33,7 +33,7 @@ specify extension add --dev /path/to/spec-kit-prep-specify
 ### Install from a release archive
 
 ```bash
-specify extension add prep-specify --from https://github.com/<your-org>/spec-kit-prep-specify/archive/refs/tags/v1.0.0.zip
+specify extension add prep-specify --from https://github.com/nalthoff/spec-kit-prep-specify/archive/refs/tags/v1.0.0.zip
 ```
 
 ## Usage

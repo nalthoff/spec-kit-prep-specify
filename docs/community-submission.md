@@ -14,11 +14,11 @@ Add an entry like this to `extensions/catalog.community.json` in the Spec Kit re
     "description": "Clarify rough feature ideas into paste-ready /speckit.specify prompts",
     "author": "Nick",
     "version": "1.0.0",
-    "download_url": "https://github.com/<your-org>/spec-kit-prep-specify/archive/refs/tags/v1.0.0.zip",
-    "repository": "https://github.com/<your-org>/spec-kit-prep-specify",
-    "homepage": "https://github.com/<your-org>/spec-kit-prep-specify",
-    "documentation": "https://github.com/<your-org>/spec-kit-prep-specify/blob/main/README.md",
-    "changelog": "https://github.com/<your-org>/spec-kit-prep-specify/blob/main/CHANGELOG.md",
+    "download_url": "https://github.com/nalthoff/spec-kit-prep-specify/archive/refs/tags/v1.0.0.zip",
+    "repository": "https://github.com/nalthoff/spec-kit-prep-specify",
+    "homepage": "https://github.com/nalthoff/spec-kit-prep-specify",
+    "documentation": "https://github.com/nalthoff/spec-kit-prep-specify/blob/main/README.md",
+    "changelog": "https://github.com/nalthoff/spec-kit-prep-specify/blob/main/CHANGELOG.md",
     "license": "MIT",
     "requires": {
       "speckit_version": ">=0.2.0"
@@ -36,8 +36,8 @@ Add an entry like this to `extensions/catalog.community.json` in the Spec Kit re
     "verified": false,
     "downloads": 0,
     "stars": 0,
-    "created_at": "<replace-with-iso-timestamp>",
-    "updated_at": "<replace-with-iso-timestamp>"
+    "created_at": "2026-04-17T00:00:00Z",
+    "updated_at": "2026-04-17T00:00:00Z"
   }
 }
 ```
@@ -47,12 +47,11 @@ Add an entry like this to `extensions/catalog.community.json` in the Spec Kit re
 Add a row like this to the Community Extensions table in the main Spec Kit `README.md`:
 
 ```markdown
-| Prep Specify | Clarifies rough ideas into paste-ready `/speckit.specify` prompts | `docs` | Read-only | [spec-kit-prep-specify](https://github.com/<your-org>/spec-kit-prep-specify) |
+| Prep Specify | Clarifies rough ideas into paste-ready `/speckit.specify` prompts | `docs` | Read-only | [spec-kit-prep-specify](https://github.com/nalthoff/spec-kit-prep-specify) |
 ```
 
 ## Before You Submit
 
-- Replace every `<your-org>` placeholder
 - Create the public GitHub repository
 - Tag and publish release `v1.0.0`
 - Confirm the ZIP download URL works

@@ -6,8 +6,8 @@ extension:
   version: "1.0.0"
   description: "Clarify rough feature ideas into paste-ready /speckit.specify prompts"
   author: "Nick"
-  repository: "https://github.com/<your-org>/spec-kit-prep-specify"
-  homepage: "https://github.com/<your-org>/spec-kit-prep-specify"
+  repository: "https://github.com/nalthoff/spec-kit-prep-specify"
+  homepage: "https://github.com/nalthoff/spec-kit-prep-specify"
   license: "MIT"
 
 requires:
